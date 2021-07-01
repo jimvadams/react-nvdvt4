@@ -1,4 +1,6 @@
 import classes from './AvailableMeals.module.css';
+import React from 'react';
+
 
 const DUMMY_MEALS = [
   {
