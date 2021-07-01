@@ -26,11 +26,11 @@ const DUMMY_MEALS = [
     name: 'Green Bowl',
     description: 'Healthy...and green...',
     price: 18.99,
-  },
+  },vcx
 ];
 
 const AvailableMeals = () => {
-  const mealsList = DUMMY_MEALS.map((meal) => <li>{meal.name}</li>);
+  const mealsList = DUMMY_MEALS.map((meal) => <li>{meal.name} </li>);
 
   return (
     <section className={classes.meals}>
